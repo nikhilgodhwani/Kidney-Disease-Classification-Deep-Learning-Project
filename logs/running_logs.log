@@ -1,2 +1,51 @@
 [2023-10-15 02:33:37,704: INFO: main: Welcome to our custom log]
 [2023-10-15 02:36:09,747: INFO: main: Welcome to our custom log]
+[2023-10-17 23:53:25,254: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-10-17 23:53:25,386: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-10-17 23:53:25,429: INFO: common: created directory at: artifacts]
+[2023-10-17 23:53:25,432: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-10-17 23:53:25,435: INFO: 986331348: Downloading data from https://drive.google.com/file/d/12uJKQ_aOEEYpen2XJie583nceD5Tg73J/view?usp=sharing into file artifacts/data_ingestion/data.rar]
+[2023-10-17 23:53:46,262: INFO: 986331348: Downloaded data from https://drive.google.com/file/d/12uJKQ_aOEEYpen2XJie583nceD5Tg73J/view?usp=sharing into file artifacts/data_ingestion/data.rar]
+[2023-10-18 00:05:42,583: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-10-18 00:05:42,587: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-10-18 00:05:42,591: INFO: common: created directory at: artifacts]
+[2023-10-18 00:05:42,594: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-10-18 00:05:42,597: INFO: 986331348: Downloading data from https://drive.google.com/file/d/12uJKQ_aOEEYpen2XJie583nceD5Tg73J/view?usp=sharing into file artifacts/data_ingestion/data.rar]
+[2023-10-18 00:06:01,832: INFO: 986331348: Downloaded data from https://drive.google.com/file/d/12uJKQ_aOEEYpen2XJie583nceD5Tg73J/view?usp=sharing into file artifacts/data_ingestion/data.rar]
+[2023-10-18 00:08:03,895: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-10-18 00:08:03,899: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-10-18 00:08:03,903: INFO: common: created directory at: artifacts]
+[2023-10-18 00:08:03,907: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-10-18 00:08:03,910: INFO: 986331348: Downloading data from https://drive.google.com/file/d/12uJKQ_aOEEYpen2XJie583nceD5Tg73J/view?usp=sharing into file artifacts/data_ingestion/data.rar]
+[2023-10-18 00:08:20,769: INFO: 986331348: Downloaded data from https://drive.google.com/file/d/12uJKQ_aOEEYpen2XJie583nceD5Tg73J/view?usp=sharing into file artifacts/data_ingestion/data.rar]
+[2023-10-18 00:10:07,434: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-10-18 00:10:07,438: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-10-18 00:10:07,442: INFO: common: created directory at: artifacts]
+[2023-10-18 00:10:07,446: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-10-18 00:10:07,449: INFO: 2394763813: Downloading data from https://drive.google.com/file/d/12uJKQ_aOEEYpen2XJie583nceD5Tg73J/view?usp=sharing into file artifacts/data_ingestion/data.rar]
+[2023-10-18 00:10:25,221: INFO: 2394763813: Downloaded data from https://drive.google.com/file/d/12uJKQ_aOEEYpen2XJie583nceD5Tg73J/view?usp=sharing into file artifacts/data_ingestion/data.rar]
+[2023-10-19 00:53:20,968: ERROR: main: name 'STAGE_NAME' is not defined]
+Traceback (most recent call last):
+  File "main.py", line 5, in <module>
+    logger.info(f">>>>>> stage {STAGE_NAME} started")
+NameError: name 'STAGE_NAME' is not defined
+[2023-10-19 00:54:00,931: ERROR: main: name 'STAGE_NAME' is not defined]
+Traceback (most recent call last):
+  File "main.py", line 5, in <module>
+    logger.info(f">>>>>> stage {STAGE_NAME} started")
+NameError: name 'STAGE_NAME' is not defined
+[2023-10-19 00:56:39,984: ERROR: main: name 'STAGE_NAME' is not defined]
+Traceback (most recent call last):
+  File "main.py", line 6, in <module>
+    logger.info(f">>>>>> stage {STAGE_NAME} started")
+NameError: name 'STAGE_NAME' is not defined
+[2023-10-19 00:59:10,011: INFO: main: >>>>>> stage Data Ingestion stage started]
+[2023-10-19 00:59:10,022: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-10-19 00:59:10,036: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-10-19 00:59:10,038: INFO: common: created directory at: artifacts]
+[2023-10-19 00:59:10,039: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-10-19 00:59:10,040: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/12uJKQ_aOEEYpen2XJie583nceD5Tg73J/view?usp=sharing into file artifacts/data_ingestion/data.rar]
+[2023-10-19 00:59:33,484: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/12uJKQ_aOEEYpen2XJie583nceD5Tg73J/view?usp=sharing into file artifacts/data_ingestion/data.rar]
+[2023-10-19 00:59:35,475: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
